@@ -7,7 +7,7 @@ class Author
   end
 
   def posts
-    
+
   end
   #a
 end
