@@ -21,8 +21,8 @@ class Artist
     add_song(song)
   end
 
-  def song_count
-    Song.all.count
+  def self.song_count
+    Song.all.collect{|song| song.artist_name}.count
   end
 
 end
