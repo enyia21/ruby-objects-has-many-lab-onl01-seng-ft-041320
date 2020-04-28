@@ -12,7 +12,7 @@ class Post
     @@all
   end
 
-  # def author 
-  #   
-  # end 
+  # def author
+  #
+  # end
 end
